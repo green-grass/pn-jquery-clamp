@@ -1,6 +1,6 @@
 {
   "name": "pn-jquery-clamp",
-  "version": "1.0.0-rc1-0",
+  "version": "1.0.0-rc1-1",
   "description": "PhantomNet jQuery plugin clamp",
   "main": "./dist/pn-clamp.js",
   "authors": [

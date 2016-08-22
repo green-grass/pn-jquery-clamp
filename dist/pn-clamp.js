@@ -12,6 +12,10 @@
     };
 
     $.fn[PLUGIN_NAME] = function (method) {
+        if (method === undefined) {
+            method = "clamp";
+        }
+        
         if (methods[method]) {
             return methods[method].apply(this, Array.prototype.slice.call(arguments, 1));
         } else if (typeof method === "object" || !method) {
@@ -26,7 +30,7 @@
             lines: 1
         }, options);
 
-        elements.each(function(index, element){
+        elements.each(function (index, element) {
             clamp(element, options.lines);
         });
 
