@@ -1,0 +1,14 @@
+{
+  "name": "pn-jquery-clamp",
+  "description": "PhantomNet jQuery plugin clamp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/green-grass/pn-jquery-clamp.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "1.2.0",
+    "rimraf": "2.2.8"
+  }
+}

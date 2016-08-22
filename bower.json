@@ -1,0 +1,28 @@
+{
+  "name": "pn-jquery-clamp",
+  "version": "1.0.0-rc1-0",
+  "description": "PhantomNet jQuery plugin clamp",
+  "main": "./dist/pn-clamp.js",
+  "authors": [
+    "Minh Nguyen <mnguyen284@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "PhantomNet",
+    "jQuery"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "homepage": "https://github.com/green-grass/pn-jquery-clamp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 2.0.0"
+  }
+}
