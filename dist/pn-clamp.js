@@ -34,7 +34,7 @@
             clamp(element, options.lines);
         });
 
-        return $.apply($, ret);
+        return $.apply($, elements);
 
         function clamp(element, lines) {
             var $element = $(element),
